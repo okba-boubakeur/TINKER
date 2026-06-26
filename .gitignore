@@ -26,5 +26,23 @@ dist-ssr
 # Compiled/Executable binaries
 app.exe
 uninstall.exe
+tinker-ai-setup.exe
 *.exe
+
+# Debug / scratch files
+debug_icon_check.png
+release_icon_check.png
+root_icon_check.png
+desktop.ini
+search/
+
+# DDG test/scratch HTML pages
+ddg.html
+ddg_lite.html
+ddg_main.html
+ddg_test.html
+ddg_test2.html
+ddg_test3.html
+ddg_*.html
+
 
