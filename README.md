@@ -1,7 +1,7 @@
 # ⚡ Tinker AI
 
 <p align="center">
-  <img src="./icon.svg" alt="Tinker AI Logo" width="120px" height="120px" />
+  <img src="https://raw.githubusercontent.com/okba-boubakeur/TINKER/main/icon.svg" alt="Tinker AI Logo" width="120px" height="120px" />
 </p>
 
 <h3 align="center">Tinker AI</h3>
@@ -55,7 +55,7 @@ You can ask the AI agent to solve any system issue or manage software! The AI wi
 
 <p align="center">
   <strong>Steps & Progression</strong><br/>
-  <img src="public/screenshots/Steps%20&%20progression.jpg" alt="Steps & Progression" width="90%" />
+  <img src="public/screenshots/Steps%20%26%20progression.jpg" alt="Steps &amp; Progression" width="90%" />
 </p>
 
 <hr/>
