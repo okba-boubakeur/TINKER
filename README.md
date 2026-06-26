@@ -262,6 +262,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full development setup guide and 
 
 ---
 
+## 🙏 Special Thanks & Credits
+
+A massive thank you to **Chris Titus (@christitustech)** and his incredible open-source project **[WinUtil](https://github.com/christitustech/winutil)**. 
+Tinker AI relies on the extensive research, tweaks, and software catalogs curated by Chris and the WinUtil community. By acting as an AI interface over the WinUtil catalog, Tinker AI aims to bring the power of his Windows automation tools to even more users through natural language.
+
+---
+
 ## 📄 License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
