@@ -21,6 +21,59 @@
 
 Tinker AI blends real-time system monitoring, Chris Titus Tech's **WinUtil** automation catalog, and Vercel's **AI SDK** into a cohesive, high-performance desktop control center. Speak or type commands in natural language, and let the autonomous agent handle everything from installing apps to applying system tweaks—safely, securely, and silently.
 
+## 💡 How It Works
+
+You can ask the AI agent to solve any system issue or manage software! The AI will:
+1. ⚙️ **Use WinUtil Tools:** Leverage Chris Titus Tech's optimized tweaks and tools library.
+2. 📚 **Use Knowledge Base:** Refer to built-in system diagnostics and guidebooks.
+3. 🌐 **Autonomous Web Search:** Safely search the web for the most appropriate solution to your unique issue.
+4. 🛡️ **Ask Permission:** Always present planned commands for your explicit execution approval.
+5. 🛠️ **Solve Almost Any Issue:** Execute silent application installations, registry fixes, or custom script operations.
+
+---
+
+## 📸 Screenshots
+
+<p align="center">
+  <strong>Overview</strong><br/>
+  <img src="public/screenshots/Overview.jpg" alt="Overview" width="90%" />
+</p>
+
+<hr/>
+
+<p align="center">
+  <strong>Steps & Progression</strong><br/>
+  <img src="public/screenshots/Steps%20&%20progression.jpg" alt="Steps & Progression" width="90%" />
+</p>
+
+<hr/>
+
+<p align="center">
+  <strong>Tweaks Panel</strong><br/>
+  <img src="public/screenshots/Tweaks.JPG" alt="Tweaks Panel" width="90%" />
+</p>
+
+<hr/>
+
+<p align="center">
+  <strong>Software & Apps Panel</strong><br/>
+  <img src="public/screenshots/Apps.JPG" alt="Software & Apps Panel" width="90%" />
+</p>
+
+<hr/>
+
+<p align="center">
+  <strong>Settings & API Options</strong><br/>
+  <img src="public/screenshots/Settings.JPG" alt="Settings & API Options" width="90%" />
+</p>
+
+<hr/>
+
+<p align="center">
+  <strong>Execution Log Terminal</strong><br/>
+  <img src="public/screenshots/Execution%20log.JPG" alt="Execution Log Terminal" width="90%" />
+</p>
+
 ---
 
 ## ✨ Key Features
@@ -139,4 +192,3 @@ Inside the app, access the **Settings** panel to configure:
 
 ## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
