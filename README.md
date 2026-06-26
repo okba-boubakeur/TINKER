@@ -202,5 +202,14 @@ Inside the app, access the **Settings** panel to configure:
 
 ---
 
+## 🤝 Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+Please see [CONTRIBUTING.md](file:///e:/Apps-Portfolio/1- AI-Apps/tinker-ai/CONTRIBUTING.md) for details on our development setup and guidelines.
+
+---
+
 ## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
