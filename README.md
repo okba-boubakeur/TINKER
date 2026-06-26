@@ -17,6 +17,18 @@
   <img src="https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
 </p>
 
+## 📥 Download & Quick Install
+
+Get the latest version of Tinker AI for Windows:
+
+* **[Download Setup Installer (.exe)](https://github.com/okba-boubakeur/TINKER/releases/latest)** — Direct installer for 64-bit Windows.
+* **[Download MSI Installer (.msi)](https://github.com/okba-boubakeur/TINKER/releases/latest)** — Alternative installer database format.
+
+### Quick Start Guide:
+1. **Run the Installer:** Download and execute the `.exe` setup package. Follow the prompt to install the application on your computer.
+2. **Configure API Keys:** Upon launch, click on the **Settings** gear icon. Enter your **Google Gemini Key** or **OpenRouter Key** to initialize the AI.
+3. **WinUtil Catalog Setup:** Tinker AI references the WinUtil JSON library. Set the directory path in Settings to point to your local Chris Titus Tech repository containing the configuration catalogs (default: `D:\tinker-ai\winutil`).
+
 ---
 
 Tinker AI blends real-time system monitoring, Chris Titus Tech's **WinUtil** automation catalog, and Vercel's **AI SDK** into a cohesive, high-performance desktop control center. Speak or type commands in natural language, and let the autonomous agent handle everything from installing apps to applying system tweaks—safely, securely, and silently.
