@@ -40,7 +40,7 @@ After installing and launching Tinker AI for the first time, follow these steps 
 
 ### Step 1 — 🤖 Set Up Your AI Provider
 
-Click the **⚙️ Settings** icon (bottom of the sidebar) and go to the **AI Provider** section.
+Click the **⚙️ Settings** icon (top-right of the chatpanel) and go to the **AI Provider** section.
 
 You need at least **one** of the following:
 
