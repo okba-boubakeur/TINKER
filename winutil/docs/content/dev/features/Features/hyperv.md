@@ -1,0 +1,18 @@
+---
+title: "Hyper-V - Enable"
+description: ""
+---
+
+```json {filename="config/feature.json",linenos=inline,linenostart=24}
+  "WPFFeatureshyperv": {
+    "Content": "Hyper-V - Enable",
+    "Description": "Hyper-V is a hardware virtualization product developed by Microsoft that allows users to create and manage virtual machines.",
+    "category": "Features",
+    "panel": "1",
+    "feature": [
+      "Microsoft-Hyper-V-All"
+    ],
+    "InvokeScript": [
+      "bcdedit /set hypervisorschedulertype classic"
+    ],
+```

@@ -1,0 +1,40 @@
+name: Generate Sponsors README
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: 30 15 * * 0-6
+permissions:
+  contents: write
+  pull-requests: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: (github.event_name == 'schedule' && github.repository == 'ChrisTitusTech/winutil') || (github.event_name != 'schedule')
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+
+      - name: Generate Sponsors 💖
+        uses: JamesIves/github-sponsors-readme-action@v1
+        with:
+          token: ${{ secrets.PAT }}
+          file: 'README.md'
+
+      - name: Create Pull Request 🚀
+        id: cpr
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'Update sponsors in README'
+          title: 'chore: Update Sponsors README'
+          body: 'Automated update of sponsors section'
+          branch: sponsors-update
+          delete-branch: true
+          labels: automated
+
+      - name: Check outputs
+        run: |
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"

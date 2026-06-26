@@ -1,0 +1,52 @@
+tag-prefix: ''
+categories:
+  - title: '🚀 Features'
+    labels:
+      - 'feature'
+      - 'enhancement'
+      - 'new feature'
+  - title: '🐛 Bug Fixes'
+    labels:
+      - 'hotfix'
+      - 'bugfix'
+      - 'bug'
+  - title: '📚 Documentation'
+    label: 'documentation'
+  - title: '🎨 UI/UX Improvements'
+    label: 'ui update'
+change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
+template: |
+  ## Changes
+
+  $CHANGES
+
+change-title-escapes: '\<*_&"'''
+autolabeler:
+  - label: 'documentation'
+    files:
+      - '*.md'
+    branch:
+      - '/docs{0,1}\/.+/'
+  - label: 'bug'
+    branch:
+      - '/fix\/.+/'
+    title:
+      - '/fix/i'
+  - label: 'new feature'
+    branch:
+      - '/feature\/.+/'
+    body:
+      - '/[A-Z]+-[0-9]+/'
+  - label: 'documentation'
+    files:
+      - '**/*.md'
+      - 'docs/**/*'
+replacers:
+  - search: /"/g
+    replace: ''
+  - search: /'/g
+    replace: ''
+exclude-labels:
+  - 'skip-changelog'
+
+filter-by-commitish: true
